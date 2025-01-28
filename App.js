@@ -39,7 +39,7 @@ function ExpensesOverview() {
         component={RecentExpenses}
         options={{
           title: "Recent Expense",
-          tabBarLabel: "Recents",
+          tabBarLabel: "Recent",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="hourglass" size={size} color={color} />
           ),
